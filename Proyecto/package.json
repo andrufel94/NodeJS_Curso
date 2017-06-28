@@ -1,15 +1,17 @@
 {
-  "name": "hola_express",
+  "name": "proyecto",
   "version": "1.0.0",
-  "description": "Curso de node JS (Hola Mundo)",
-  "main": "app.js",
+  "description": "Proyecto del curso node js",
+  "main": "app.ja",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andres Luque",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mongoose": "^4.11.0"
   }
 }
