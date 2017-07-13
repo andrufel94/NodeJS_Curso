@@ -1,4 +1,9 @@
 extends ./layout.jade
 block contenido
     h1 Bienvenido al portal de fotos
-    a(href="/login") Iniciar Sesión
+    div(class="container")
+        ul(class="pagination")
+            li
+                a(href="/login") Iniciar Sesión
+            li
+                a(href="/signup") Registro
